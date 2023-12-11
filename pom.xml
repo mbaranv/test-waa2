@@ -84,7 +84,7 @@
                 <configuration>
 
                     <includes>
-                        <include>**/*Runner.java</include>
+                        <include>**/*.java</include>
                     </includes>
                     <testFailureIgnore>false</testFailureIgnore>
                 </configuration>
