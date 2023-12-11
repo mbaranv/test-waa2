@@ -14,10 +14,5 @@ pipeline {
                 sh 'mvn test'
                 }
              }
-
-        stage('Reports') {
-            steps {
-                }
-             }
            }
         }
