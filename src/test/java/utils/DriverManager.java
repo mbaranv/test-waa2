@@ -30,8 +30,9 @@ public class DriverManager {
                     WebDriverManager.chromedriver().setup();
                   //  System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");
                     ChromeOptions options = new ChromeOptions();
-               //     options.addArguments("--headless");
-                    options.addArguments("--start-maximized");
+                    options.addArguments("--headless");
+                    options.addArguments("--window-size=1920,1080");
+                    //options.addArguments("--start-maximized");
                     options.addArguments("--no-sandbox");
                     options.addArguments("--disable-dev-shm-usage");
                     options.addArguments("--incognito");
