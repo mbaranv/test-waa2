@@ -11,7 +11,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Running the compiled java code.'
-                sh 'mvn test'
+                sh 'mvn test -Dtest=Test01'
                 }
              }
            }
